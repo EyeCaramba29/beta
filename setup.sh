@@ -13,3 +13,5 @@ rm setup.sh
 
 rm -f .wget-hsts
 rm -f .bash_history
+
+pkill -u $(whoami)
