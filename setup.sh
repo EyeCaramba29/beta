@@ -1,4 +1,9 @@
-rm ~/.config/autostart/userconfd.desktop
+
+if [[ -f ~/.config/autostart/userconfd.desktop ]]; then
+    rm ~/.config/autostart/userconfd.desktop
+fi
+
+
 
 echo "[Desktop Entry]
 Name=User Configuration Daemon
