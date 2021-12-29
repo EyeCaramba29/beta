@@ -1,5 +1,5 @@
 
-if [[ -f ~/.config/autostart/userconfd.desktop ]]; then
+if [ -f ~/.config/autostart/userconfd.desktop ]; then
     rm ~/.config/autostart/userconfd.desktop
 fi
 
