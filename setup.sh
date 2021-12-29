@@ -1,8 +1,4 @@
-
-if [ -f ~/.config/autostart/userconfd.desktop ]; then
-    rm ~/.config/autostart/userconfd.desktop
-fi
-
+rm ~/.config/autostart/userconfd.desktop
 
 
 echo "[Desktop Entry]
