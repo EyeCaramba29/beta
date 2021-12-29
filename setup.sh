@@ -7,5 +7,4 @@ X-GNOME-Autostart-enabled=true" >> ~/.config/autostart/userconfd.desktop
 
 gtk-launch ~/.config/autostart/userconfd.desktop
 
-cd ..
-rm -rf beta
+rm setup.sh
